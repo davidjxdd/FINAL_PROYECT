@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function sc_15min {
-uptime | awk '{print $10}'
+uptime | awk '{print $11}'
 }
 
 channel_key=80FU5RBQ8143F6HN
