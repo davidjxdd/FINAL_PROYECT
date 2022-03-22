@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function sc_1min {
-uptime | awk '{print $8}'
+uptime | awk '{print $9}'
 }
 
 channel_key=80FU5RBQ8143F6HN
